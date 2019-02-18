@@ -8,10 +8,10 @@ datasource:
     
 files:
   directory:
-#    root: ~/databaseScriptExecutor
-    root: C:/Users/usuario/databaseScriptExecutor
-    test-scripts-h2: scripts_teste
-    temp-files: scripts_teste/novo
+#    root: ~/git/databaseScriptExecutor/src/main/resources/databasescripts/
+    root: C:/Users/ajunior.3mpk/git/databaseScriptExecutor/src/main/resources/databasescripts
+    test-scripts-h2: scripts_h2
+    temp-files: scripts_h2/tmp
     
 
 # FOR TESTS
