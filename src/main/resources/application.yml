@@ -1,0 +1,21 @@
+datasource:
+  h2:
+    #ONLY FOR TESTS
+    jdbcUrl: jdbc:h2:file:~/databaseScriptExecutor/databaseScriptExecutor
+    driverClassName: org.h2.Driver
+    username: sa
+    password:
+    
+files:
+  directory:
+#    root: ~/databaseScriptExecutor
+    root: C:/Users/usuario/databaseScriptExecutor
+    test-scripts-h2: scripts_teste
+    temp-files: scripts_teste/novo
+    
+
+# FOR TESTS
+#  jpa:
+#    properties:
+#      hibernate:
+#        hbm2dll.auto: update
