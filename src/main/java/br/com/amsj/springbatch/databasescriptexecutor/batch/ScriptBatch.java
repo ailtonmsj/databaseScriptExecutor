@@ -87,7 +87,7 @@ public class ScriptBatch {
 
 			for (int cont = 0; scripts.size() > cont; cont++) {
 				script = scripts.get(cont);
-				//scriptDAO.executeScript(addGO(script), dataSource);
+//				scriptDAO.executeScript(addGO(script), dataSource);
 				scriptDAO.executeScript(script, dataSource);
 				successScriptNames.add(script.getName());
 			}

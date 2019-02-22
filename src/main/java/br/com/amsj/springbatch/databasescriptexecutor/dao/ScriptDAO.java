@@ -29,6 +29,7 @@ public class ScriptDAO {
 			// STOP ON ERROR
 			scriptRunner.setStopOnError(true);
 			
+			// FOR SCRIPTS WITH GO DELIMITER
 			scriptRunner.setDelimiter("GO");
 			
 			scriptRunner.runScript(reader);

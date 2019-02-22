@@ -1,7 +1,8 @@
 datasource:
   h2:
     #ONLY FOR TESTS
-    jdbcUrl: jdbc:h2:file:~/databaseScriptExecutor/databaseScriptExecutor
+    #jdbcUrl: jdbc:h2:file:~/databaseScriptExecutor/databaseScriptExecutor
+    jdbcUrl: jdbc:h2:file:C:/Users/ajunior.3mpk/databaseScriptExecutor/databaseScriptExecutor
     driverClassName: org.h2.Driver
     username: sa
     password:
